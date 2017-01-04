@@ -1,0 +1,46 @@
+
+/*Don't include in HubSpot CSS*/
+
+body {
+  background-color: blue;
+}
+
+
+/*Do Include in HubSpot CSS*/
+
+.navbar-one {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+.navbar-one-waldron-logo {
+  height: 50px;
+  margin: 20px 0px 0px 20px;
+  display: block;
+}
+
+.navbar-one-section {
+  text-align: center;
+}
+
+.navbar-one-ul-li {
+  padding: 0px 20px;
+  display: inline-block;
+  list-style: none;
+  font-family: arial;
+  font-size: 18px;
+  color: #003b40;
+}
+
+/*hover styles*/
+
+a:hover {
+  text-decoration: none;
+}
+
+.navbar-one-ul-li:hover {
+  color: #0cdeb0;
+}
+
+

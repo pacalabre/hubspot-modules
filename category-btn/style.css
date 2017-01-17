@@ -1,8 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-.cat-btn {
-  background-color: white;
+
+a {
+  text-decoration: none;
 }
 
 .cat-btn > ul >  a > li {
   list-style: none;
+  color: #003b40;
+  text-decoration: none;
+  padding: 3px 0px;
 }
+
+.cat-btn {
+  background-color: white;
+  border: solid #003b40 thin;
+  font-size: 17px;
+  color: #003b40;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-family: lato;
+  font-weight: 400;
+  padding-bottom: 0px;
+}
+
+.cat-btn >  ul {
+  padding: 20px;
+  margin: 10px 0px;
+  border-top: solid thin #003b40;
+}
+
+.cat-btn-li:hover {
+  color: #0cdeb0;
+}
+

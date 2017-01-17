@@ -8,6 +8,10 @@ body {
 
 /*Do Include in HubSpot CSS*/
 
+a {
+  text-decoration: none;
+}
+
 .navbar-one {
   position: fixed;
   width: 100%;

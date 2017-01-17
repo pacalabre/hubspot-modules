@@ -14,24 +14,26 @@ a {
 }
 
 .cat-btn {
-  background-color: white;
+  background-color: #f1f3f4;
   border: solid #003b40 2px;
   font-size: 17px;
   color: #003b40;
   text-transform: uppercase;
-  padding: 10px 20px;
+  padding: 10px 20px 10px 20px;
   font-family: lato;
   font-weight: 400;
 }
 
 .cat-btn >  ul {
   padding: 20px;
-  margin: 10px 0px;
+  margin: 10px -20px -10px -20px;
   border-top: solid thin #003b40;
+  background-color: white;
 }
 
 .cat-btn-li:hover {
   color: #0cdeb0;
+  transition: 1s;
 }
 
 #cat-btn-ul {

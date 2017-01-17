@@ -8,17 +8,32 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <!-- THIS IS WHAT GOES INTO THE HTML TEMPLATE -->
     <section>
       <button class="cat-btn">
-        All Topics
+        Filter By Topics
         <ul id="cat-btn-ul" >
-          <a href="#"><li class="cat-btn-li">Link</li></a>
-          <a href="#"><li class="cat-btn-li">Link</li></a>
-          <a href="#"><li class="cat-btn-li">Link</li></a>
-          <a href="#"><li class="cat-btn-li">Link</li></a>
+          <a href="blog.waldron.com/blog/"><li class="cat-btn-li">Show All</li></a>
+          <a href="blog.waldron.com/blog/topics/boards-governance"><li class="cat-btn-li">Boards / Governance</li></a>
+          <a href="blog.waldron.com/blog/topics/diversity-inclusion"><li class="cat-btn-li">Diversity &amp; Inclusion</li></a>
+          <a href="blog.waldron.com/blog/topics/events"><li class="cat-btn-li">Events</li></a>
+          <a href="blog.waldron.com/blog/topics/executive-development-coaching"><li class="cat-btn-li">Executive Development<br>&amp; Coaching</li></a>
+          <a href="blog.waldron.com/blog/topics/executive-search"><li class="cat-btn-li">Executive Search</li></a>
+          <a href="blog.waldron.com/blog/topics/interview"><li class="cat-btn-li">Interview</li></a>
+          <a href="blog.waldron.com/blog/topics/leadership"><li class="cat-btn-li">Leadership</li></a>
+          <a href="blog.waldron.com/blog/topics/marketing"><li class="cat-btn-li">Marketing</li></a>
+          <a href="blog.waldron.com/blog/topics/outplacement"><li class="cat-btn-li">Outplacement</li></a>
+          <a href="blog.waldron.com/blog/topics/survey-report"><li class="cat-btn-li">Survey Report</li></a>
         </ul>
       </button>
     </section>
+    <script>
+      $(".cat-btn").click(function(){
+        $("#cat-btn-ul").toggle();
+      })
+    </script>
+    <!-- TEMPLATE CODE END -->
+
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="main.js"></script>
   </body>

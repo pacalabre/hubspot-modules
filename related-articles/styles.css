@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+a {
+  text-decoration: none;
+}
+
+button:focus {
+  outline:0;
+}
+
+.related-articles > ul {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.related-articles > ul > h4 {
+  margin: 5px;
+}
+
+.related-articles > ul >  a > li {
+  list-style: none;
+  color: #626262;
+  font-size: 13px;
+  text-decoration: none;
+  padding: 3px 0px;
+}
+
+.related-articles {
+  background-color: #fff;
+  border: solid #003b40 2px;
+  font-size: 17px;
+  color: #003b40;
+  text-transform: uppercase;
+  padding: 10px 20px 10px 20px;
+  font-family: lato;
+  font-weight: 400;
+  position: absolute;
+  z-index: 1000;
+}
+
+/*.related-articles >  ul {
+  padding: 20px;
+  margin: 10px -20px -10px -20px;
+  border-top: solid thin #003b40;
+  background-color: white;
+}*/
+
+.related-articles> ul >  a > li:hover {
+  color: #0cdeb0;
+  transition: 1s;
+}
+

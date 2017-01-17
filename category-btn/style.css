@@ -6,6 +6,10 @@ a {
   text-decoration: none;
 }
 
+button:focus {
+  outline:0;
+}
+
 .cat-btn > ul >  a > li {
   list-style: none;
   color: #003b40;

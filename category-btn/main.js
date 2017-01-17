@@ -1,1 +1,4 @@
-console.log("hey");
+
+$(".cat-btn").click(function(){
+ $("#cat-btn-ul").toggle();
+})

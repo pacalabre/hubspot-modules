@@ -23,6 +23,7 @@ a {
   font-family: lato;
   font-weight: 400;
   position: absolute;
+  z-index: 1000;
 }
 
 .cat-btn >  ul {
